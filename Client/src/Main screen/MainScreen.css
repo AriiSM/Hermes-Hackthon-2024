@@ -1,0 +1,81 @@
+.mainscreen-body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    color: white;
+
+    background-image: url('../Assets/KaliLinuxBackground.jpeg');
+    background-size: cover;
+}
+
+.mainscreen-logo {
+    width: 60%;
+}
+
+.mainscreen-buttons {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+
+    transition: color ease-in-out 300ms;
+}
+
+.mainscreen-buttons-defense:hover {
+    color: #2362BA;
+}
+
+.mainscreen-buttons-attack:hover {
+    color: #D22B2B;
+}
+
+.mainscreen-buttons-space {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    /*margin-top: 20px;*/
+}
+h3 {
+    font-size: 40px;
+    /*margin-top: 20px;*/
+}
+.extra-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh; /* Space between the buttons */
+    /*margin-top: -10vh; !* Position the buttons above the defense button *!*/
+    margin-left: -25vh;
+}
+
+.extra-button {
+    position: relative; /* Relative to its containing block */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Add spacing above the Defense button */
+    transform: translateY(-20%); /* Adjust vertical positioning above Defense button */
+}
+
+.extra-button:hover {
+    color: #2362BA;
+}
+
+.mail-button {
+    position: relative; /* Relative position to align naturally with flex gap */
+
+}
+
+.profile-button {
+    position: relative; /* Relative position to align naturally with flex gap */
+
+}

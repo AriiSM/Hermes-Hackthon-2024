@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'VT323'; /* Update font-family to VT323 */
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('https://fonts.gstatic.com/s/vt323/v10/6a2y7QxdOJe2BjwH4WqGqPFLuDN7g0RE6S8iQ1o2nCQ.woff2') format('woff2'); /* Link to VT323 font */
+    }
+  
+    body {
+      font-family: 'VT323', monospace; /* Apply VT323 font to body */
+      font-size: 30px; /* Increase font size */
+    }
+  }
