@@ -1,38 +1,54 @@
 # Trust Issues - Interactive Phishing Awareness Game
+###  Cybersecurity Meets Gameplay • Inspired by *Papers, Please*
 
-## Description
+---
 
-**Trust Issues** is an interactive educational game inspired by *Papers, Please*, designed to help users recognize phishing attempts and the dangers associated with fake accounts and messages.
+## Overview
 
-In the early levels, the game focuses on **educating players**, providing them with the tools and knowledge necessary to detect online scams. As players progress, Trust Issues evolves into a more immersive experience, transforming users into virtual detectives who analyze profiles and uncover hidden clues.
+**Trust Issues** is an interactive educational game inspired by *Papers, Please*, designed to raise awareness about phishing attacks and social engineering tactics in a fun, engaging way.
 
-By simulating real-world cybersecurity threats in an engaging and gamified format, **Trust Issues** enhances users' critical thinking and online safety awareness while maintaining an exciting and challenging experience.
+In early levels, players are introduced to key cybersecurity concepts, learning how to recognize suspicious accounts, messages, and online behaviors. As the game progresses, the experience shifts into a detective-style challenge — where players must analyze clues, cross-reference information, and detect hidden threats.
 
-## Features
+By simulating **real-world digital scams** through a gamified lens, **Trust Issues** helps users build **critical thinking skills** and stay safer online.
 
-- **Interactive Gameplay:** Inspired by Papers, Please, players review profiles, messages, and online interactions to identify potential scams.
-- **Educational Experience:** Learn how to detect phishing attacks and recognize fraudulent social media accounts.
-- **Progressive Difficulty:** Levels become increasingly complex, challenging users to refine their analytical skills.
-- **Realistic Scenarios:** Designed based on real-world cybersecurity threats and attack patterns.
-- **Engaging Storyline:** Players take on the role of an investigator analyzing suspicious online activity.
-- **Web & Desktop Support:** Built using modern web technologies for accessibility across different platforms.
+---
+
+
+## Team Members
+**Trust Issues** was created by **Echo Pulse**, a passionate 6-member team combining creativity, technical skill, and cyber awareness.
+
+> **Team Lead:** *Ruse Teodor* – responsible for coordinating development, UI/UX direction, and integration between components.
+
+| Name          | Year of Study                |
+|---------------|------------------------------|
+| **Bondor Mihnea-Ștefan**      | 1st year – Computer Science  |
+| **Dumitriu Marian**           | 2nd year – Computer Science  |
+| **Iliuță Filip-Ioan**         | 3rd year – Computer Science  |
+| **Mărcuș Alexandru-Marian**   | 2nd year – Computer Science  |
+| **Ruse Teodor**               | 3rd year – Computer Science  |
+| **Stan Ariana - Maria**       | 3rd year – Computer Science  |
+
+
+---
+
+## Key Features
+
+- **Interactive Gameplay** - Inspired by *Papers, Please*. Players evaluate digital profiles, chat logs, and evidence to uncover frauds.
+- **Educational Value** - Teaches players how to recognize phishing, fake accounts, and online manipulation tactics.
+   **Progressive Challenge** - Difficulty scales with each level, pushing players to think deeper and faster.
+- **Realistic Scenarios** - Game mechanics are built around authentic cyberattack methods and case studies.
+- **Narrative-Driven** - Players act as investigators working through fictional (but plausible) online incidents.
+- **Cross-Platform Support** - Built with modern web tech, playable on both **desktop** and **web browsers**.
+
+---
 
 ## Technology Stack
 
-- **Frontend:** React.js
-- **Backend:** Node.js, Koa.js, JWT Authentication, WebSockets
-- **Database:** NeDB (JSON-based database storage)
-- **Real-time Communication:** WebSocket integration for dynamic interactions
-- **Security Implementations:** Authentication mechanisms and API protection
+| Layer            | Tools & Frameworks                         |
+|------------------|---------------------------------------------|
+| **Frontend**      | React.js                                   |
+| **Backend**       | Node.js, Koa.js, WebSocket API             |
+| **Database**      | NeDB (lightweight JSON-based DB)           |
+| **Security**      | JWT authentication, protected API routes   |
+| **Real-Time**     | WebSocket integration for in-game events   |
 
-## Team Members
-**Trust Issues** was developed by the Echo Pulse team, a dynamic group of six passionate members:
-
-1. Bondor Mihnea-Ștefan
-2. Dumitriu Marian
-3. Iliuță Filip-Ioan
-4. Mărcuș Alexandru-Marian
-5. Ruse Teodor
-6. Stan Ariana-Maria
-
-Each member contributed uniquely to the game's design, development, and security research.
