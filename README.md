@@ -1,11 +1,13 @@
 # Trust Issues - Interactive Phishing Awareness Game
-###  Cybersecurity Meets Gameplay • Inspired by *Papers, Please*
+###  2nd Place – Cybersecurity Meets Gameplay 
 
 ---
 
 ## Overview
 
 **Trust Issues** is an interactive educational game inspired by *Papers, Please*, designed to raise awareness about phishing attacks and social engineering tactics in a fun, engaging way.
+
+This project was awarded **2nd place** at a cybersecurity-focused hackathon, being recognized for its innovative approach to education through gameplay.
 
 In early levels, players are introduced to key cybersecurity concepts, learning how to recognize suspicious accounts, messages, and online behaviors. As the game progresses, the experience shifts into a detective-style challenge — where players must analyze clues, cross-reference information, and detect hidden threats.
 
